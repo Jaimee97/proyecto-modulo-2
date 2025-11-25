@@ -186,6 +186,10 @@ $('#transferirForm').submit(function(event) {
     localStorage.setItem('transaccionesNuevas', JSON.stringify(transacciones));
 
     $('#transferir_input').val('');
+
+    setTimeout(() => {
+            window.location.href = "menu.html";
+    }, 2000);
 });
 
 

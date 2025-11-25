@@ -47,7 +47,7 @@ $("document").ready(function(){
         $('body').append(containerSpinner);
         $('body').append(successMessage);
         setTimeout(() => {
-            window.location.href = "menu.html";
+            window.location.href = "./menu.html";
         }, 2000);
     });
 });
