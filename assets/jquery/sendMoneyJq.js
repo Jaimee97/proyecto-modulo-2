@@ -188,7 +188,7 @@ $('#transferirForm').submit(function(event) {
     $('#transferir_input').val('');
 
     setTimeout(() => {
-            window.location.href = "menu.html";
+            window.location.href = "./menu.html";
     }, 2000);
 });
 
