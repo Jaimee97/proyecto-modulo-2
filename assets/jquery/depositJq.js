@@ -40,7 +40,7 @@ $(document).ready(function() {
     $("#lista_depositos").append(`<li>Depósito a la cuenta: ${monto.toLocaleString()}</li>`);
       
     setTimeout(() => {
-            window.location.href = "menu.html";
+            window.location.href = "./menu.html";
     }, 2000);
 });
 
