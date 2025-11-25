@@ -22,7 +22,7 @@ document.getElementById('depositButton').addEventListener('click', function(even
     document.body.appendChild(successMessage);
 
     setTimeout(() => {
-        window.location.assign("/deposit.html");
+        window.location.href = "./deposit.html";
     }, 2000);
     
 })
@@ -51,7 +51,7 @@ document.getElementById('sendMoneyButton').addEventListener('click', function(ev
     document.body.appendChild(successMessage);
 
     setTimeout(() => {
-        window.location.assign("/sendMoney.html");
+        window.location.href = "./sendMoney.html";
     }, 2000);
 
 })
@@ -81,7 +81,7 @@ document.getElementById('transactionsButton').addEventListener('click', function
     document.body.appendChild(successMessage);
 
     setTimeout(() => {
-        window.location.assign("/transactions.html");
+        window.location.href = "./transactions.html";
     }, 2000);
 
 })
